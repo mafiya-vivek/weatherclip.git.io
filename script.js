@@ -35,7 +35,7 @@ search.addEventListener('click',() =>{
        const wind = document.querySelector('.weather-details .wind span') ;
 
        switch(json.weather[0].main){
-       /*
+     
        case 'Clear':
            image.src = 'images/clear.png';
            break;
@@ -59,7 +59,7 @@ search.addEventListener('click',() =>{
         default:
             image.src = '';
             
-            */
+              /* */
         
        }
 
